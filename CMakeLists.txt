@@ -7,6 +7,7 @@ file(GLOB FILES src/core/*.h src/core/*.cpp
 					 src/mfcc/*.h src/mfcc/*.cpp
 					 src/onset-detection-functions/*.h src/onset-detection-functions/*.cpp
 					 src/pitch/*.h src/pitch/*.cpp
+					 src/fft/WindowFunctions.h src/fft/WindowFunctions.cpp
 					 src/*.h src/*.cpp)
 					 
 add_library(Gist STATIC ${FILES})
