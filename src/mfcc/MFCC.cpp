@@ -110,7 +110,6 @@ void MFCC<T>::discreteCosineTransform (std::vector<T>& inputSignal, const size_t
     // the input signal must have the number of elements specified in the numElements variable
     assert (inputSignal.size() == numElements);
     
-    //T signal[numElements]; // copy to work on
 	T *signal; // copy to work on
 	signal = (T*)malloc(sizeof(T) * numElements);
     
